@@ -24,9 +24,9 @@ export default function RootLayout({
 
         <main className=" min-h-[80vh] ">{children}</main>
 
-        <footer className="bottom-0 border-t inset-2x-0 border-zinc-500/10">
+        {/* <footer className="bottom-0 border-t inset-2x-0 border-zinc-500/10">
           <div className="flex flex-col gap-1 px-6 py-12 mx-auto text-xs text-center text-zinc-700 max-w-7xl lg:px-8">
-            {/* <p>
+            <p>
               Built by{" "}
               <Link href="https://twitter.com/chronark_" className="font-semibold duration-150 hover:text-zinc-200">
                 @chronark_
@@ -49,9 +49,9 @@ export default function RootLayout({
                 Upstash
               </Link>{" "}
               for storing encrypted data.
-            </p> */}
+            </p>
           </div>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
