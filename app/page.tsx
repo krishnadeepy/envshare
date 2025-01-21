@@ -7,10 +7,11 @@ export default function Home() {
     <div className="flex flex-col gap-8 pb-8 md:gap-16 md:pb-16 xl:pb-24">
       <div className="flex flex-col items-center justify-center max-w-3xl px-8 mx-auto mt-8 sm:min-h-screen sm:mt-0 sm:px-0">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          {/* <Link
+          {
+          /* <Link
             href="https://github.com/chronark/envshare"
             className="text-zinc-400 relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-zinc-100/10 hover:ring-zinc-100/30 duration-150"
-          >
+            >
             EnvShare is Open Source on{" "}
             <span className="font-semibold text-zinc-200">
               GitHub <span aria-hidden="true">&rarr;</span>
@@ -42,7 +43,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h2 className="py-4 text-3xl font-bold text-center text-zinc-300 ">Used and trusted by a growing community</h2>
+      {/* <h2 className="py-4 text-3xl font-bold text-center text-zinc-300 ">Used and trusted by a growing community</h2> */}
       {/* <Stats />
       <Testimonials /> */}
     </div>
